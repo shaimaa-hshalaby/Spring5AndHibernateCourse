@@ -46,4 +46,8 @@ I believe that we should start from the beginning to deeply understand the magic
  - define a bean inside the configuration file using @Bean annotation
  - dependency injection by code and @Bean annotation in the Configuration file
    
-   
+---------
+ 
+## Spring MVC Module
+
+### Spring MVC Lab Exercises
