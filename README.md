@@ -51,3 +51,20 @@ I believe that we should start from the beginning to deeply understand the magic
 ## Spring MVC Module
 
 ### Spring MVC Lab Exercises
+
+
+---------
+ 
+## Spring AOP Module
+
+### Spring AOP Lab Exercises
+
+    - Create Maven Project and add the needed dependency for the Spring core &  Aspectj
+    - Enable the aspect feature by using @EnableAspectJAutoProxy in the Configuration class
+    - Create Aspect Advice Class
+    - Use @Before() annotation and test execution
+    - Test pointcut expression for specific method name
+    - Test pointcut expression for specific method & specific class
+    - Test pointcut expression for wild card method name
+    - Test pointcut expression for wild card return type
+
