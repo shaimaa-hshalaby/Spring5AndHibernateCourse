@@ -59,12 +59,19 @@ I believe that we should start from the beginning to deeply understand the magic
 
 ### Spring AOP Lab Exercises
 
-    - Create Maven Project and add the needed dependency for the Spring core &  Aspectj
-    - Enable the aspect feature by using @EnableAspectJAutoProxy in the Configuration class
-    - Create Aspect Advice Class
-    - Use @Before() annotation and test execution
+  - Create Maven Project and add the needed dependency for the Spring core &  Aspectj
+  - Enable the aspect feature by using @EnableAspectJAutoProxy in the Configuration class
+  - Create Aspect Advice Class
+  - Use @Before() annotation and test execution
     - Test pointcut expression for specific method name
     - Test pointcut expression for specific method & specific class
     - Test pointcut expression for wild card method name
     - Test pointcut expression for wild card return type
+    - Test pointcut expression for a method with a specific param type (Complex type)
+    - Test pointcut expression for a method with wild card parameters
+    - Test pointcut expression for any method in a specific package
 
+  - Use @Pointcut annotation to declare a pointcut expression and use it for multiple advices
+  - Create Pointcut expression to be executed before any method in the package and exclude setters and getters method
+  - Create Class to save the pointcut expressions and reuse them
+  - Use @Order annotation to order the aspects
